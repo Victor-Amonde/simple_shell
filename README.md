@@ -16,7 +16,7 @@ cd_handler.c: include functions that helps to get the current working directory,
 ctrl_exit.c: contains functions to display prompt, to ignore spaces before command, to ignore the ctrl-C when evoked, and to handl the shell exit.
 envset_unset.c: this file contains functions that handles the environment, setting it and also unsetting it.
 execute.c: this file contains functions to convert sting to token and handles the execution of a file given as input.
-holberton.h: handles all the prototypes used in this repository.
+main.h: handles all the prototypes used in this repository.
 man_1_simple_shell: This is a manual description of what our shell is and its content and also an example to illustrate how it works.
 path_handler.c: this funtion contains functions to get the path of the command, retrive the environment, and return full command path.
 print_char.c: includes the putchar and a print to help print a string.
@@ -24,7 +24,7 @@ read_line.c: contain functions that reads the characters in standard input.
 shell.c: this is our main function that displays an prompt and waits for the user to type in a command.
 Shell Usage
 Install
-(your_terminal)$ git clone https://github.com/DennisWanjeri/simple_shell.git
+(your_terminal)$ git clone https://github.com/Victor-Amonde/simple_shell.git
 (your_terminal)$ cd simple_shell
 Compile
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
