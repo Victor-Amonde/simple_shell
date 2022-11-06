@@ -19,4 +19,11 @@ int main(int argc, char *argv[]);
 /*used in _realloc.c file*/
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 
+/*used in _strings.c file*/
+char *_strcat(char *dest, char *src);
+int _strcmp(char *s1, char *s2);
+char *_strcpy(char *dest, char *src);
+char *_strdup(char *str);
+int _strlen(const char *s);
+
 #endif /* MAIN_H */
