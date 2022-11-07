@@ -26,4 +26,7 @@ char *_strcpy(char *dest, char *src);
 char *_strdup(char *str);
 int _strlen(const char *s);
 
+/*used in builtin_parser.c file*/
+int builtin_parser(char **tokens);
+
 #endif /* MAIN_H */
