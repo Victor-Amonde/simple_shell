@@ -29,4 +29,10 @@ int _strlen(const char *s);
 /*used in builtin_parser.c file*/
 int builtin_parser(char **tokens);
 
+/*used in cd_handler.c file*/
+char *_getcwd(void);
+int cd_home(void);
+int cd_prev(void);
+int _cd(char **args);
+
 #endif /* MAIN_H */
