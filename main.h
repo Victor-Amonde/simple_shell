@@ -41,4 +41,10 @@ char *ignore_space(char *str);
 void ctrl_c(int signum);
 void shell_exit(char **args, char *line);
 
+/*used in envset_unset.c*/
+int shell_environ(void);
+int _setenv(char *var_name, char *var_value);
+char *var_build(char *var_name, char *var_value);
+int _unsetenv(char *var_name);
+
 #endif /* MAIN_H */
