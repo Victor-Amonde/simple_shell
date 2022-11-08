@@ -35,4 +35,10 @@ int cd_home(void);
 int cd_prev(void);
 int _cd(char **args);
 
+/*used in ctrl_exit.c file*/
+void print_prompt(void);
+char *ignore_space(char *str);
+void ctrl_c(int signum);
+void shell_exit(char **args, char *line);
+
 #endif /* MAIN_H */
