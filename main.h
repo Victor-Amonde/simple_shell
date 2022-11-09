@@ -53,4 +53,8 @@ char **_strtotokens(char *str);
 int check_file_status(char *filename);
 int _execute(char **tokens, char *line, char *args);
 
+/*history_handler.c*/
+int get_history(char *input);
+int display_history(void);
+
 #endif /* MAIN_H */
