@@ -47,4 +47,10 @@ int _setenv(char *var_name, char *var_value);
 char *var_build(char *var_name, char *var_value);
 int _unsetenv(char *var_name);
 
+/*used in execute.c file*/
+unsigned int _occurence(char *s);
+char **_strtotokens(char *str);
+int check_file_status(char *filename);
+int _execute(char **tokens, char *line, char *args);
+
 #endif /* MAIN_H */
